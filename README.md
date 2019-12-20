@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 ```
 pip3 install -r requirements.txt 
 ```
-## Using <project_name>
+## Using the experiment
 
 To use , follow these steps:
 * Run in the directory of the project,
