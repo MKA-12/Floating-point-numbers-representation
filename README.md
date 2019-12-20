@@ -1,9 +1,12 @@
 # Representation of floating point numbers in binary system
 
-The project is an improvement on the [Virtual Lab experiment](http://cse11-iiith.vlabs.ac.in/FloatingPointNumbers/Introduction.html?domain=Computer%20Science&lab=CSO%20LabHome) that helps students  to do learn representing floating point numbers in binary system according to IEEE conventions.
+![Github Size](https://img.shields.io/github/languages/code-size/MKA-12/Floating-point-numbers-representation)
 
-The project has an in-built floating point number to binary converter built using `javascript` eliminating the need to download `.swf` file which was previously used.<br/>
-A quiz feature is also added which randomly gives 5 questions from an existing database, everytime a user takes the quiz. Grading for the quiz is  also done for the users to evaluate their performance.
+The project is an improvement on the [Virtual Lab experiment](http://cse11-iiith.vlabs.ac.in/FloatingPointNumbers/Introduction.html?domain=Computer%20Science&lab=CSO%20LabHome) that helps students to learn representing floating point numbers in binary system according to IEEE conventions.
+
+The project has an in-built floating point number to binary converter built using `javascript` eliminating the need to download a `.swf` file which was previously used.<br/>
+
+A quiz feature is also added which presents the user with 5 randomly selected multiple choice quiestions taken from a pre-existing database. Grading for the quiz is also done for the users to evaluate their performance.
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -29,7 +32,7 @@ python3 run.py
 ```
 python3 test.py
 ```
-### File Description
+## Code Structure / File description
 
 -- `run.py` <br/>–> The main python file which runs the server <br/>
 -- `app.db` <br/> –> This is the main database file which contains "Question" and "Answer" tables from which data will retrieved. <br/>
